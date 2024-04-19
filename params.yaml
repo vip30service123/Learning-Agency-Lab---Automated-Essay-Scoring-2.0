@@ -1,0 +1,15 @@
+prepare_data:
+  data_path: ./data/train.csv
+  train_path: ./processed_data/train.csv
+  test_path: ./processed_data/test.csv
+  train_size: 0.8
+  shuffle: True
+feature_extraction:
+  vectorizer: TfidfVectorizer
+  vectorizer_save_path: ./processed_data/vectorizer.pk
+training:
+  model: xgboost
+  save_model_path: ./model/${.model}.pk
+evaluation:
+  evaluation: cohen_kappa_score
+  save_result_path: ./model/result.txt
