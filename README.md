@@ -11,8 +11,6 @@ Tf-idf
 XGBoost </br>
 LightGMB </br>
 CatBoost </br>
-RandomForrest </br>
-SVC </br>
 
 
 ## Something to do
@@ -20,3 +18,14 @@ SVC </br>
 No idea now </br>
 #### Vectorizer
 #### Tune model's params
+
+
+## Tasks
+#### Model
+Learn Machanic of XGBoost </br>
+Learn Mechanic of LightGBM </br>
+Learn Mechanic of CatBoost </br>
+Learn Count-Vectorizer Mechanic and TF-IDF Mechanic </br>
+Use Voting Technique for all above Models
+#### Code
+DVC Yaml </br>
