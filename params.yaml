@@ -8,7 +8,7 @@ feature_extraction:
   vectorizer: TfidfVectorizer
   vectorizer_save_path: ./processed_data/vectorizer.pk
 training:
-  model: xgboost
+  model: lightgbm
   save_model_path: ./model/${.model}.pk
 evaluation:
   evaluation: cohen_kappa_score

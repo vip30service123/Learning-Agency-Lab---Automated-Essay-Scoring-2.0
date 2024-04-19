@@ -1,6 +1,11 @@
+catboost
 dvc
+lightgbm
 omegaconf
 pandas
+plotly
 scikit-learn
+scipy
+six
 xgboost
 
