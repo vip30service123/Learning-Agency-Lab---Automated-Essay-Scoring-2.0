@@ -20,6 +20,18 @@ No idea now </br>
 #### Tune model's params
 
 
+## Learn
+#### Vectorizer
+- TF-IDF </br>
+- Count </br>
+#### Models
+- Decision Tree </br>
+- Random Forest </br>
+- LGBM </br>
+#### Metrics
+- Quadratic Weighted Kappa </br>
+
+
 ## Tasks
 #### Model
 Learn Machanic of XGBoost </br>
